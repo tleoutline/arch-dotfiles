@@ -1,5 +1,6 @@
 . ~/.profile
 . ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+export FZF_MARKS_FILE=${HOME}/.config/fzf-marks
 
 ZSH_CACHE=~/.cache/zsh/
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
@@ -76,7 +77,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoenv git git-auto-fetch zoxide starship vi-mode zsh-syntax-highlighting)
+plugins=(autoenv fzf-marks git git-auto-fetch zoxide starship vi-mode zsh-syntax-highlighting)
 VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
 VI_MODE_SET_CURSOR=true
 
