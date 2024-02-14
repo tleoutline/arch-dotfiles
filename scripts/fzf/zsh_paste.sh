@@ -1,7 +1,7 @@
 # fzf path pickers to insert to zsh
 # use in zsh with ctrl-f
 
-function _fzm_paste_command {
+function _fz_jump_paste_command {
     local directory="$1"
     LBUFFER="${LBUFFER}$directory"
     zle reset-prompt > /dev/null 2>&1
@@ -25,7 +25,7 @@ fzp() {
   local result=$(tail -1 <<< "$lines")
 
   if [[ -n "$result" ]]; then
-    eval -- "_fzm_paste_command \"\$result\""
+    eval -- "_fz_jump_paste_command \"\$result\""
   fi
 }
 
