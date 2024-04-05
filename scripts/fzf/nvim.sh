@@ -1,8 +1,8 @@
 fv() {
   local result
   fzf_args=(
-    --bind "ctrl-h:reload(fd -Htf --no-ignore)" \
-    --bind "ctrl-b:reload(fd -Htf -E '.git')" \
+    --bind "ctrl-h:reload(fd -Htf -tl --no-ignore)" \
+    --bind "ctrl-b:reload(fd -Htf -tl -E '.git')" \
     --bind "pgdn:preview-page-down" \
     --bind "pgup:preview-page-up" \
     --bind "ctrl-d:preview-half-page-down" \
