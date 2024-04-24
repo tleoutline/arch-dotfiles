@@ -1,6 +1,7 @@
 alias -g v='nvim'
 alias -g vs='sudo -E nvim'
 alias -g lzg='lazygit'
+alias tma="tmux has-session 2> /dev/null && tmux a || tmux"
 
 export EDITOR="$(which nvim)"
 export FZF_DEFAULT_COMMAND="fd"
