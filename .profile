@@ -1,6 +1,6 @@
-alias -g v='nvim'
-alias -g vs='sudo -E nvim'
-alias -g lzg='lazygit'
+alias v='nvim'
+alias vs='sudo -E nvim'
+alias lzg='lazygit'
 alias tma="tmux has-session 2> /dev/null && tmux a || tmux"
 
 export EDITOR="$(which nvim)"
