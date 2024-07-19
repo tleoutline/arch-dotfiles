@@ -66,8 +66,6 @@ bindkey ^g fzm
 . ~/.script/nnn.sh
 . ~/.script/tre.sh
 . ~/.script/lsd.sh
-. ~/.script/autoenv.sh
-. ~/.script/initenv/pio/init_pio.sh
 for file in ~/.script/fzf/*; do
   . "$file"
 done
