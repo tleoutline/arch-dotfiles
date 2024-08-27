@@ -4,6 +4,11 @@ alias lzg='lazygit'
 alias tma="tmux has-session 2> /dev/null && tmux a || tmux"
 alias venv='python -m venv'
 alias cl='clear'
+alias ..="z .."
+alias ...="z ../.."
+alias ....="z ../../.."
+alias .....="z ../../../.."
+alias ......="z ../../../../.."
 
 export EDITOR="$(which nvim)"
 export FZF_DEFAULT_COMMAND="fd"
