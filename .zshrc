@@ -56,7 +56,16 @@ ZSH_THEME="robbyrussell"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
-plugins=(autoenv fzf-marks git git-auto-fetch zoxide starship vi-mode zsh-syntax-highlighting)
+plugins=(
+	autoenv
+	git
+	git-auto-fetch
+	fzf-marks
+	zoxide
+	starship
+	vi-mode
+	zsh-syntax-highlighting
+)
 VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
 VI_MODE_SET_CURSOR=true
 
