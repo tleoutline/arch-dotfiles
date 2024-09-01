@@ -1,6 +1,6 @@
 . ~/.profile
 . ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
-export FZF_MARKS_FILE=${HOME}/.config/fzf-marks
+FZF_MARKS_FILE=${HOME}/.config/fzf-marks
 
 ZSH_CACHE="$XDG_CACHE_HOME/zsh/"
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
