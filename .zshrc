@@ -72,6 +72,9 @@ VI_MODE_SET_CURSOR=true
 source $ZSH/oh-my-zsh.sh
 bindkey ^g fzm
 
+compdef z=cd  # Using cd's completion for zoxide
+compdef v=nvim
+
 . ~/.script/nnn.sh
 . ~/.script/tre.sh
 . ~/.script/lsd.sh
