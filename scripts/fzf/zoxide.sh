@@ -7,8 +7,9 @@ fz() {
     --reverse
     --tac
     --ansi \
-    --bind "ctrl-h:reload(fd -Htd --no-ignore)" \
-    --bind "ctrl-b:reload(fd -Htd -E '.git')" \
+    --bind "ctrl-h:reload(fd -Lutd)" \
+    # -u => --unrestricted == --hidden --no-ignore
+    --bind "ctrl-b:reload(fd -Ltd -E '.git')" \
     --bind "pgdn:preview-page-down" \
     --bind "pgup:preview-page-up" \
     --bind "ctrl-d:preview-half-page-down" \

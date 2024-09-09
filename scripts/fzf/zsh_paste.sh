@@ -13,15 +13,15 @@ fzp() {
     --height 40%
     --reverse
     --ansi \
-    --bind "ctrl-h:reload(fd -H --no-ignore)" \
-    --bind "ctrl-b:reload(fd -H -E '.git')" \
+    --bind "ctrl-h:reload(fd -UL)" \
+    --bind "ctrl-b:reload(fd -L -E '.git')" \
     +m \
     --header="enter:paste  ctrl-h:show hidden  ctrl-b: hide hidden" \
     --tac
     )
     
   
-  local lines=$(fd -Htd -E '.git' | fzf $fzf_args)
+  local lines=$(fd -L -E '.git' | fzf $fzf_args)
   local result=$(tail -1 <<< "$lines")
 
   if [[ -n "$result" ]]; then
