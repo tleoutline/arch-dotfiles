@@ -13,7 +13,7 @@ fzp() {
     --height 40%
     --reverse
     --ansi \
-    --bind "ctrl-h:reload(fd -UL)" \
+    --bind "ctrl-h:reload(fd -uL)" \
     --bind "ctrl-b:reload(fd -L -E '.git')" \
     +m \
     --header="enter:paste  ctrl-h:show hidden  ctrl-b: hide hidden" \
