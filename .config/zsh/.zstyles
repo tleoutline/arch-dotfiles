@@ -1,5 +1,7 @@
 #!/usr/bin/env zsh
 
+zstyle ':plugin:ez-compinit' 'compstyle' 'ohmy'
+
 # autocomplete pattern
 # 0 -- vanilla completion (abc => abc)
 # 1 -- smart case completion (abc => Abc)
@@ -10,3 +12,5 @@ zstyle ':completion:*' matcher-list '' \
   'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
   'r:|?=** m:{a-z\-}={A-Z\_}'
 
+compdef z=cd  # Using cd's completion for zoxide
+compdef v=nvim

@@ -1,6 +1,11 @@
+mattmc3/ez-compinit
+ohmyzsh/ohmyzsh                    path:lib
+
 $ZDOTDIR/.aliases
 $ZDOTDIR/.zstyles
-$ZDOTDIR/custom/scripts
+$ZDOTDIR/custom                    path:autoenv
+$ZDOTDIR/custom                    path:fzf
+$ZDOTDIR/custom                    path:nnn
 $ZDOTDIR/completions               kind:fpath
 $ZDOTDIR/functions                 kind:path
 
@@ -8,13 +13,10 @@ zsh-users/zsh-completions          kind:fpath path:src
 zsh-users/zsh-syntax-highlighting
 catppuccin/zsh-syntax-highlighting path:themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 zsh-users/zsh-autosuggestions
-mattmc3/ez-compinit
-
 getantidote/use-omz
-ohmyzsh/ohmyzsh                    path:lib
 ohmyzsh/ohmyzsh                    path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh                    path:plugins/git
 ohmyzsh/ohmyzsh                    path:plugins/git-auto-fetch
-
-jeffreytse/zsh-vi-mode
+ohmyzsh/ohmyzsh                    path:plugins/vi-mode
+# jeffreytse/zsh-vi-mode
 urbainvaes/fzf-marks
