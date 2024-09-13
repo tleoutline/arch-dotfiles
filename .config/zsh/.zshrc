@@ -2,7 +2,7 @@
 . '/usr/share/zsh-antidote/antidote.zsh'
 antidote load
 
-ZSH_CACHE="$XDG_CACHE_HOME/zsh/"
+ZSH_CACHE="$XDG_CACHE_HOME/zsh"
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 ZSH_COMPDUMP=$ZSH_CACHE/zcompdump
 
