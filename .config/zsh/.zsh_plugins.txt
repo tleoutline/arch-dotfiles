@@ -4,7 +4,6 @@ ohmyzsh/ohmyzsh                    path:lib/key-bindings.zsh
 
 $ZDOTDIR/.aliases
 $ZDOTDIR/.zstyles
-$ZDOTDIR/.zbinds
 $ZDOTDIR/custom                    path:autoenv
 $ZDOTDIR/custom                    path:fzf
 $ZDOTDIR/custom                    path:nnn
@@ -22,3 +21,5 @@ psprint/zsh-sweep
 romkatv/zsh-bench                  kind:path
 hlissner/zsh-autopair              path/autopair.zsh
 urbainvaes/fzf-marks
+
+$ZDOTDIR/.zbinds
