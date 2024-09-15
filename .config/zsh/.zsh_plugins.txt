@@ -3,6 +3,7 @@ ohmyzsh/ohmyzsh                    path:lib
 
 $ZDOTDIR/.aliases
 $ZDOTDIR/.zstyles
+$ZDOTDIR/.zbinds
 $ZDOTDIR/custom                    path:autoenv
 $ZDOTDIR/custom                    path:fzf
 $ZDOTDIR/custom                    path:nnn
