@@ -10,7 +10,6 @@ $ZDOTDIR/custom                    path:nnn
 $ZDOTDIR/completions               kind:fpath
 $ZDOTDIR/functions                 kind:path
 
-zsh-users/zsh-syntax-highlighting
 catppuccin/zsh-syntax-highlighting path:themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 zsh-users/zsh-completions          kind:fpath path:src
 ohmyzsh/ohmyzsh                    path:plugins/colored-man-pages
@@ -21,5 +20,7 @@ psprint/zsh-sweep
 romkatv/zsh-bench                  kind:path
 hlissner/zsh-autopair              path/autopair.zsh
 urbainvaes/fzf-marks
+# zsh-users/zsh-syntax-highlighting
+zdharma-continuum/fast-syntax-highlighting kind:zsh
 
 $ZDOTDIR/.zbinds
