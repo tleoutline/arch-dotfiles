@@ -18,5 +18,6 @@ ohmyzsh/ohmyzsh                    path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh                    path:plugins/git
 ohmyzsh/ohmyzsh                    path:plugins/git-auto-fetch
 ohmyzsh/ohmyzsh                    path:plugins/vi-mode
+psprint/zsh-sweep
 # jeffreytse/zsh-vi-mode
 urbainvaes/fzf-marks

@@ -1,3 +1,4 @@
+zs_set_path=1
 . /usr/share/autoenv-git/activate.sh
 eval "$(zoxide init zsh)"
 . '/usr/share/zsh-antidote/antidote.zsh'
